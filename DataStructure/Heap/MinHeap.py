@@ -1,10 +1,12 @@
-# 최소 힙
+# Complete Binary Tree
+# O(log2n)
 import heapq
 
 
 def heapsort(iterable):
     """
     오름차 순 힙 정렬(Heap Sort)
+    Root Node is minimum
     """
     h = []
     result = []

@@ -1,10 +1,12 @@
-# 최대 힙
+# Complete Binary Tree
+# O(log2n)
 import heapq
 
 
 def heapsort(iterable):
     """
-    오름차 순 힙 정렬(Heap Sort)
+    내림차 순 힙 정렬(Heap Sort)
+    Root Node is maximum
     """
     h = []
     result = []
