@@ -1,5 +1,7 @@
-# O(n log n)
+# O(nlogn)
 # the worst : O(n^2)
+# unstable sorting algorithm
+# in-place sorting algorithm
 # pivot 중심점[축]
 def qsort(data=list) -> list:
     '''
