@@ -1,7 +1,8 @@
 # O(n^2)
+# the best : O(n)
 # stable sorting algorithm
 # in-place sorting algorithm
-def bsort(data=list) -> list:
+def bubble_sort(data=list) -> list:
     '''
     Bubble Sort
     returns sorted list
